@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipboardExt", "ClipboardExt\ClipboardExt.csproj", "{371D1C74-3B23-4FCD-8B9C-E2CA19A42C84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClipboardExt", "src\ClipboardExt\ClipboardExt.csproj", "{07A44D06-C377-4985-9686-312C17A4EC61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{11336B19-FDB6-4970-85BF-87DA6217E91E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{371D1C74-3B23-4FCD-8B9C-E2CA19A42C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{371D1C74-3B23-4FCD-8B9C-E2CA19A42C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{371D1C74-3B23-4FCD-8B9C-E2CA19A42C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{371D1C74-3B23-4FCD-8B9C-E2CA19A42C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A44D06-C377-4985-9686-312C17A4EC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A44D06-C377-4985-9686-312C17A4EC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A44D06-C377-4985-9686-312C17A4EC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A44D06-C377-4985-9686-312C17A4EC61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07A44D06-C377-4985-9686-312C17A4EC61} = {11336B19-FDB6-4970-85BF-87DA6217E91E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B558DE9-D0DE-4AEF-BF94-FDA1C370C461}
